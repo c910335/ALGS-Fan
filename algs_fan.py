@@ -108,6 +108,10 @@ class ALGSFan(commands.Bot):
         result = search_next(player)
         await ctx.send(result)
 
+    @commands.command(name='line')
+    async def line(self, ctx):
+        await ctx.send('臺灣星海匿名 Line 社群永遠歡迎新的指揮官 ➡ https://algssc2.pse.is/twscline')
+
     @commands.command(name='nice')
     async def nice(self, ctx):
         nice_name = [
